@@ -1,0 +1,40 @@
+body{
+    font-family: 'Trebuchet MS', helvetica, sans-serif;
+    background-image: url("https://www.10wallpaper.com/wallpaper/1920x1080/1311/spots_background_faded-design_HD_wallpaper_1920x1080.jpg");
+}
+#container{
+    width: 480px;
+    height: 380px;
+    background-color: rgba(255, 255, 255, 0.3);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 120px;
+    text-align: center;
+}
+#container img{
+    width: 150px;
+    height: 150px;
+    top: -60px;
+    margin-bottom: 30px;
+}
+input{
+    height: 40px;
+    width: 80%;
+    font-size: 18px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding-left: 40px;
+    border: none;
+    border-radius: 20px;
+}
+input.submit{
+    background-color: orange;
+    color:#fff;
+    border: 2px solid rgb(255, 184, 54);
+    padding: 5px 25px;
+    height: 55px;
+    width: 90%;
+    background: linear-gradient(to bottom, #faa600, #f68a00);
+}
